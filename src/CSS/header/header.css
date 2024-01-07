@@ -1,0 +1,79 @@
+.image-container {
+  position: relative;
+}
+
+.head__img {
+  display: block;
+  width: 101%;
+  height: auto;
+  
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 43, 69, 0.9); 
+ 
+}
+.header__wrapper{
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo_section{
+  align-items: center;
+}
+.pos{
+  display: flex;
+  gap: 30px;
+}
+.adress__container{
+  position: relative;
+  right: 50px;
+  width: 40%;
+  align-items: center;
+}
+
+.tel{
+  width: 30%;
+  text-align: center;
+}
+
+.header__tel_section{
+  width: 50%;
+  gap: 20px;
+  justify-content: end;
+  align-items: center;
+  
+} 
+
+.txt{
+  font-size: 17px;
+  color: aliceblue;
+}
+
+.widh{
+  max-width: 100%;
+  height: 70%;
+  
+}
+
+.call{
+  width: 40%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0); /* Прозрачный белый цвет */
+    border: 1px solid #ffffff; /* Белая граница */
+    color: #ffffff; /* Белый текст */
+    padding: 10px 20px; /* Поля вокруг текста */
+    text-align: center; /* Выравнивание текста по центру */
+    display: inline-block; /* Строчно-блочный элемент */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Изменение курсора при наведении */
+}  
+
+.wtp{
+  position: relative;
+  top: 3px;
+}
